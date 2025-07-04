@@ -24,6 +24,7 @@ if(pinNumber.value === '227'){
     document.getElementById('current-balance').innerText = newBalance;
 }
 else{
+    alert("Wrong Pin");
     console.log('Wrong pin')
 }
 });

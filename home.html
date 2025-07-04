@@ -32,13 +32,13 @@
 
                 <!-- user action button -->
                 <div class="flex justify-center gap-4">
-                    <button class="btn btn-xl w-[40%] h-[80px]">Add Money</button>
+                    <button id="add-money" class="btn btn-xl w-[40%] h-[80px]">Add Money</button>
                     <button class="btn btn-xl w-[40%] h-[80px]">Cash Out</button>
                 </div>
 
                 <div class="divider"></div>
                 <!-- add money  -->
-                <div class="card bg-base-100 w-[80%] max-w-sm shrink-0 shadow-2xl justify-self-center">
+                <div id="add-money-container" class="hidden card bg-base-100 w-[80%] max-w-sm shrink-0 shadow-2xl justify-self-center">
                     <div class="card-body ">
                         <fieldset class="fieldset">
                             <label class="label">Amount</label>
@@ -46,7 +46,7 @@
                             <label class="label">Your pin</label>
                             <input id="pin" type="password" class="input" placeholder="Password" />
                             <div><a class="link link-hover">Forgot password?</a></div>
-                            <button id="add-money-btn" class="btn btn-neutral mt-4" id="btn-id">Add Money</button>
+                            <button id="add-money-btn" class="btn btn-neutral mt-4">Add Money</button>
                         </fieldset>
                     </div>
                 </div>
@@ -63,7 +63,8 @@
     <footer>
 
     </footer>
-    <script src="js/home.js"></script>
+    <!-- <script src="js/home.js"></script> -->
+     <script src="js/addMoney.js"></script>
 </body>
 
 </html>
